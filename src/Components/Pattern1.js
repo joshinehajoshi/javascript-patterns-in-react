@@ -20,8 +20,6 @@ function Pattern1() {
     
     return (
        <h1> {string}</h1>
-      
-       
     )
 }
 
