@@ -20,7 +20,7 @@ function Pattern1() {
     
     return (
         <>
-        <h2>Pattern1</h2>
+        <h2>Pattern 1</h2>
        <h1> {string}</h1>
        </>
     )
