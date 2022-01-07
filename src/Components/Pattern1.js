@@ -1,5 +1,4 @@
 import React from 'react';
-import Star from './Star';
 
 function Pattern1() {
     
@@ -14,12 +13,16 @@ function Pattern1() {
           }
           // newline after each row
           string += "\n";
+          
         }
         // printing the string
         console.log(string);
     
     return (
+        <>
+        <h2>Pattern1</h2>
        <h1> {string}</h1>
+       </>
     )
 }
 
