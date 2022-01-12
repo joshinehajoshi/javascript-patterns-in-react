@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Pattern4() {
+function Pattern5() {
     let n = 5; // row or column count
     // defining an empty string
     let string = "";
     
     for(let i = 0; i < n; i++) { // external loop
       for(let j = 0; j < n; j++) { // internal loop
-        if(i%2==0){
+        if(i%2==0 && j%2==0){
             string += "0";
         }
         else {
@@ -23,10 +23,10 @@ function Pattern4() {
     console.log(string);
     return (
         <>
-            <h2>Pattern 4</h2>
+            <h2>Pattern 5</h2>
             <h1> {string}</h1>
         </>
     )
 }
 
-export default Pattern4
+export default Pattern5
